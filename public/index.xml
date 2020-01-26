@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thiago B. Procaci</title>
+    <link>https://example.com/</link>
+    <description>Recent content on Thiago B. Procaci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 25 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://example.com/about/</link>
+      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/about/</guid>
+      <description>Skills Thiago is a data scientist and a senior software developer. His main skills are:
+ Agile Software Development Social Network Analysis Applied Statistics Machine Learning  International Publications  How Do Outstanding Users Differ From Other Users in Q&amp;amp;A Communities? (2019) Trust Investigation in Communities Using Feature Learning (2019) Learning in Communities: How Do Outstanding Users Differ From Other Users? (2018) Experts and likely to be closed discussions in question and answer communities: An analytical overview (2018) Modelling Experts Behaviour in Q&amp;amp;A Communities to Predict Worthy Discussions.</description>
+    </item>
+    
+    <item>
+      <title>Innovation and Invention</title>
+      <link>https://example.com/post/innovation/</link>
+      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/post/innovation/</guid>
+      <description>I have been working as a software developer for a long time and I usually listen to my coworkers’ opinions using arguments like “our company needs to innovate”. However, when you talk about innovation in a company, you will see people coming up with ideas such as technology adoption or the usage of a new cool methodology to create or improve something. Everybody agrees that it is good to create new things and some people feel proud of their creation.</description>
+    </item>
+    
+    <item>
+      <title>Happy Birthday to BM</title>
+      <link>https://example.com/zone/3/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/zone/3/</guid>
+      <description>A scholarship A letter from my email says that I have got a scholarship.</description>
+    </item>
+    
+    <item>
+      <title>Happy Birthday to BM</title>
+      <link>https://example.com/zone/1/</link>
+      <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/zone/1/</guid>
+      <description>Happy Birthday to BM! Happy Birthday to you, Be happy and healthy!</description>
+    </item>
+    
+    <item>
+      <title>I got my first salary</title>
+      <link>https://example.com/zone/2/</link>
+      <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/zone/2/</guid>
+      <description>I got my first salary In this semester, I am a TA for C Language Programming. Today I got my first salary in my life. I felt proud of myself.</description>
+    </item>
+    
+    <item>
+      <title>A gallery</title>
+      <link>https://example.com/gallery/a/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/gallery/a/</guid>
+      <description>  /img/index.png     /img/list.png     /img/single.png     /img/zone.png     /img/about.png   </description>
+    </item>
+    
+  </channel>
+</rss>
