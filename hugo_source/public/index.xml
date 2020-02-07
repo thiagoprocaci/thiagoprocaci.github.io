@@ -6,10 +6,20 @@
     <description>Recent content on Thiago B. Procaci</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 25 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://thiagoprocaci.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Data Science: trend, applicability and new data</title>
+      <link>https://thiagoprocaci.github.io/post/datascience/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoprocaci.github.io/post/datascience/</guid>
+      <description>Recently, I have been involved in data science projects as never before. Data science is a trend. Saying that someone is data scientist is nice but few know what (s)he actually does. My experience tells that applying techniques quite easy, even in the data science field. The challenge is to find a problem that a technique solves.
+Back to the beginning, why am I asked to solve issues through data science?</description>
+    </item>
     
     <item>
       <title></title>

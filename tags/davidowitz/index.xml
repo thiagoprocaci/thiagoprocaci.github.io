@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Davidowitz on Thiago B. Procaci</title>
+    <link>https://thiagoprocaci.github.io/tags/davidowitz/</link>
+    <description>Recent content in Davidowitz on Thiago B. Procaci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://thiagoprocaci.github.io/tags/davidowitz/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data Science: trend, applicability and new data</title>
+      <link>https://thiagoprocaci.github.io/post/datascience/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoprocaci.github.io/post/datascience/</guid>
+      <description>Recently, I have been involved in data science projects as never before. Data science is a trend. Saying that someone is data scientist is nice but few know what (s)he actually does. My experience tells that applying techniques quite easy, even in the data science field. The challenge is to find a problem that a technique solves.
+Back to the beginning, why am I asked to solve issues through data science?</description>
+    </item>
+    
+  </channel>
+</rss>
