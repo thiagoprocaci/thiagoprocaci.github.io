@@ -12,7 +12,7 @@ Many of us describe ourselves applying labels that shape our identity. Someone s
 
 Zygmunt Bauman, a sociologist who described the world from a fascinating perspective,  says that we live in the liquid modernity in which everything changes quickly and nothing is done to last.  Every day, new content is created and knowledge grows fast.  Yuval Harari, the author of Homo Deus, states that we are the first generation that does not know what to teach the future generations.
 
-Maybe, it is time for more of us define ourselves as lifelong learners.  A lifelong learner is someone who invests time, energy and money to keep learning new things, even when learning something that is not instantly useful.  A lifelong learner is a Self-made man, as sculpted by artist Bobbie Carlyle,  highlighting that everybody is constantly "under construction". In other words,  there is always something to improve.
+Maybe, it is time for more of us define ourselves as lifelong learners.  A lifelong learner is someone who invests time, energy and money to keep learning new things, even when learning something that is not instantly useful.  A lifelong learner is a self-made man, as sculpted by the artist Bobbie Carlyle,  highlighting that everybody is constantly "under construction". In other words,  there is always something to improve.
 
 Every weekend I spend hours reading (books, papers) or taking courses.
 Doing in this way, make me feel good and consequently, I work better. Sometimes, things that I learn do not impact directly my job but I do not mind. 

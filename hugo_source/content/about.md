@@ -23,13 +23,13 @@ Thiago is a data scientist and a senior software developer. His main  skills are
 
 1. [How Do Outstanding Users Differ From Other Users in Q&A Communities? (2019)](https://dl.acm.org/citation.cfm?id=3344928)
 1. [Trust Investigation in Communities Using Feature Learning (2019)](https://ieeexplore.ieee.org/abstract/document/8820840/)
-1. [Learning in Communities: How Do Outstanding Users Differ From Other Users? (2018)](https://ieeexplore.ieee.org/document/8433486/)
+1. [Learning in Communities: How Do Outstanding Users Differ From Other Users? (2018)](https://www.researchgate.net/publication/326999838_Learning_in_Communities_How_Do_Outstanding_Users_Differ_From_Other_Users)
 1. [Experts and likely to be closed discussions in question and answer communities: An analytical overview (2018)](https://www.sciencedirect.com/science/article/pii/S0747563218302814)
 1. [Modelling Experts Behaviour in Q&A Communities to Predict Worthy Discussions. (2017) ](https://www.researchgate.net/publication/318240192_Modelling_Experts_Behaviour_in_QA_Communities_to_Predict_Worthy_Discussions)
-1. [Finding Topical Experts in Question & Answer Communities. (2016)](http://dx.doi.org/10.1109/ICALT.2016.68)
+1. [Finding Topical Experts in Question & Answer Communities. (2016)](https://www.researchgate.net/publication/311313665_Finding_Topical_Experts_in_Question_Answer_Communities)
 1. [How to find people who can help to answer a question? - Analyses of metrics and machine learning in online communities. (2014)](http://www.sciencedirect.com/science/article/pii/S0747563214007420)	
 1. [Finding Experts on Facebook Communities. (2014)](http://dx.doi.org/10.4018/ijksr.2014040102)
-1. [Finding Reliable People in Online Communities of Questions and Answers - Analysis of Metrics and Scope Reduction. (2014)](http://dx.doi.org/10.5220/0004954005260535)
+1. [Finding Reliable People in Online Communities of Questions and Answers - Analysis of Metrics and Scope Reduction. (2014)](https://www.researchgate.net/publication/262912250_Finding_Reliable_People_in_Online_Communities_of_Questions_and_Answers_Analysis_of_Metrics_and_Scope_Reduction)
 1. [Finding Reliable Users on Online Communities Using Artificial Neural Networks. (2014)](http://connection.ebscohost.com/c/articles/110720784/finding-reliable-users-online-communities-using-artificial-neural-networks)
 
 
