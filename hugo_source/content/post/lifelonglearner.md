@@ -17,7 +17,7 @@ Maybe, it is time for more of us define ourselves as lifelong learners.  A lifel
 Every weekend I spend hours reading (books, papers) or taking courses.
 Doing in this way, make me feel good and consequently, I work better. Sometimes, things that I learn do not impact directly my job but I do not mind. 
 
-As Bauman and Harari suggest, the word is changing faster than never. We need more lifelong learners to keep things going ahead. Let's improve ourselves, being a self-made man. I'm proud to tell that “I’m a lifelong learner”.
+As Bauman and Harari suggest, the world is changing faster than never. We need more lifelong learners to keep things going ahead. Let's improve ourselves, being a self-made man. I'm proud to tell that “I’m a lifelong learner”.
 
 
 
