@@ -1,7 +1,7 @@
 +++
 author = "Thiago"
 title = "Polonius' advice to Laertes and the contemporary world"
-date = "2020-02-05"
+date = "2020-04-07"
 description = "Polonius' advice to Laertes and the contemporary world."
 tags = [
     "Hamlet", "Shakespeare", "Polonius"
