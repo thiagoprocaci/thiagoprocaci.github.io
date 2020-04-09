@@ -37,7 +37,7 @@ Thiago is a data scientist and a senior software developer. His main  skills are
 
 ## Other Publications
 
-
+1. [Captura da Aceitação do Blackboard e do Tipo de Motivação de Alunos de Cursos Presenciais de Ciências Exatas em uma Universidade Privada. (2020)](https://br-ie.org/pub/index.php/rbie/article/view/v28p229)
 1. [Coautor do capítulo "Da Pesquisa Científica à Inovação" do livro "Pesquisa e Inovação: Visões e Interseções". (2017)](http://www.publit.com.br/livraria/produto/692/pesquisa-e-inovacao-visoes-e-intersecoes)
 1. [Prospecção Tecnológica: Levantamento de Patentes, Atuação da Academia e Potenciais Inovações em Ambientes de Aprendizagem no Brasil de 2000 a 2015. (2016)](http://seer.unirio.br/index.php/isys/article/download/5959/5581)
 1. [Exploratório das Produções e Colaborações entre Pesquisadores em Informática na Educação: uma Análise de Publicações do Simpósio Brasileiro de Informática na Educação de 2001 a 2013. (2015)](http://dx.doi.org/10.5753/cbie.sbie.2015.1323)
