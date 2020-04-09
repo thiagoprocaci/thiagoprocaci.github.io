@@ -4,7 +4,7 @@ title = "Polonius' advice to Laertes and the contemporary world"
 date = "2020-02-05"
 description = "Polonius' advice to Laertes and the contemporary world."
 tags = [
-    "hamlet", "Shakespeare", "Polonius"
+    "Hamlet", "Shakespeare", "Polonius"
 ]
 +++
 
@@ -22,10 +22,11 @@ Polonius was the silly man of the kingdom (tedious old fool as described by Prin
 8. 8 - Be true to yourself. Then you won’t be false to anybody else
 
 
-What do these recommendations teach us, considering the contemporary world? Social networks dominated the online space, where many people talk and few listen. My experience says that being a good listener is to be strategic, an opportunity to better reflect on your own opinions, considering other perspectives, before saying something. Nothing more could fit better than the recommendations 1 and 5, which teaches us that listening to others and controlling what we say is essential.
+What do these recommendations teach us, considering the contemporary world? Social networks dominate the online space, where many people talk and few listen. My experience says that being a good listener is to be strategic, an opportunity to better reflect on your own opinions, considering other perspectives, before saying something. Nothing more could fit better than the recommendations 1 and 5, which teaches us that listening to others and controlling what we say is essential.
 
-On Instagram, several people post pictures of the life they want to have (but they don't have). Buddhist wisdom tells us that desire leads to suffering. Why should we expose a character on Instagram instead of showing who we really are? We are in constant existential marketing and we are the product to be sold. The recommendations 2, 6 and 8 remind us about the importance of vanity control and self-knowledge. In Polonius's opinion, there is no reason to look like something that we are not. In addition,  knowing yourself is fundamental to not deceiving ourselves with "social likes" that do not represent us (it represents the character we built).
+On Instagram, several people post pictures of the life they want to have (but they don't have). Buddhist wisdom tells us that desire leads to suffering. Why should we expose a character on Instagram instead of showing who we really are? We are constantly in existential making marketing and it seems that we are a product to be sold. The recommendations 2, 6 and 8 remind us about the importance of vanity control and self-knowledge. In Polonius's opinion, there is no reason to look like someone that we are not. In addition,  knowing yourself is fundamental to not deceiving ourselves with "social likes" that just stimulates the character we built on social networks.
 
-Recommendation 3 is about conflicts. Social networks are unlimited sources of confusion. So, recommendation 3 indicates that we should avoid a state of discord. Finally, recommendations 4 and 7 are about friendship. Polonius warns that we must value the friends we already have. It is good to know that friendship is not the number of friends that someone has on a social network. Friendship needs to be cultivated and it takes time. Throughout life, you are likely to have few friends. On the other hand, Polonius recommends not mixing money with friendship, knowing human nature when financial issues are involved.
+Recommendation 3 is about conflicts. Social networks are unlimited sources of confusion. So, recommendation 3 indicates that we should avoid a state of discord. It is obvious but necessary to point out it. Finally, recommendations 4 and 7 are about friendship. Polonius warns that we should value the friends we already have. It is good to know that friendship is not the number of friends that someone has on a social network. Friendship needs to be cultivated and it takes time. Throughout life, you are likely to have few friends. On the other hand, Polonius recommends not mixing money with friendship. He probably knows well human nature especially when financial issues are involved.
 
-As a data scientist, I always see social networks as objects of study, looking for metrics and models. However, a classic like Hamlet seems that was written last week, allowing good connections with reality and enriching our background. My advice to you: read timeless classic books.
+As a data scientist, I always see social networks as objects of study, looking for metrics, models and promising analysis usually in a quantitative way. However, a classic like Hamlet seems that was written last week, allowing us to do good connections with reality and enrich our background. There is a subjective factor in these connections. Hamlet is classical because it reports things that you live (or lived) without you being completely aware of it.  This is the power of classical.
+My advice to you: read timeless classical books and enjoy the experience.
