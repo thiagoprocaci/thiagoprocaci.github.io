@@ -30,7 +30,7 @@ Thiago is a data scientist and a senior software developer. His main  skills are
 1. [How to find people who can help to answer a question? - Analyses of metrics and machine learning in online communities. (2014)](http://www.sciencedirect.com/science/article/pii/S0747563214007420)	
 1. [Finding Experts on Facebook Communities. (2014)](http://dx.doi.org/10.4018/ijksr.2014040102)
 1. [Finding Reliable People in Online Communities of Questions and Answers - Analysis of Metrics and Scope Reduction. (2014)](https://www.researchgate.net/publication/262912250_Finding_Reliable_People_in_Online_Communities_of_Questions_and_Answers_Analysis_of_Metrics_and_Scope_Reduction)
-1. [Finding Reliable Users on Online Communities Using Artificial Neural Networks. (2014)](http://connection.ebscohost.com/c/articles/110720784/finding-reliable-users-online-communities-using-artificial-neural-networks)
+1. [Finding Reliable Users on Online Communities Using Artificial Neural Networks. (2014)](https://www.researchgate.net/publication/272154538_Finding_Reliable_Users_on_Online_Communities_Using_Artificial_Neural_Networks)
 
 
  
@@ -43,8 +43,8 @@ Thiago is a data scientist and a senior software developer. His main  skills are
 1. [Exploratório das Produções e Colaborações entre Pesquisadores em Informática na Educação: uma Análise de Publicações do Simpósio Brasileiro de Informática na Educação de 2001 a 2013. (2015)](http://dx.doi.org/10.5753/cbie.sbie.2015.1323)
 1. [Análise Empírica de Comunidades Online baseadas em Enriquecimento Semântico para encontrar Usuários Especialistas. (2015)](http://www.br-ie.org/pub/index.php/wcbie/article/download/6072/4256)
 1. [Identificando Colegas para Ajudar em Minhas Dúvidas: Um Estudo Empírico em Comunidades de Perguntas e Respostas. (2015)](http://www.br-ie.org/pub/index.php/wcbie/article/view/5933)
-1. [Encontrando Usuários Confiáveis em Comunidades Online de Perguntas e Respostas Através de seu Índice de Confiança. (2014)](http://www.lbd.dcc.ufmg.br/bdbcomp/servlet/Trabalho?id=21322)   
+1. [Encontrando Usuários Confiáveis em Comunidades Online de Perguntas e Respostas Através de seu Índice de Confiança. (2014)](https://www.researchgate.net/publication/262912086_Encontrando_Usuarios_Confiaveis_em_Comunidades_Online_de_Perguntas_e_Respostas_Atraves_de_seu_Indice_de_Confianca)   
 1. [Importância dos Testes Automatizados e da Integração Contínua no Uso do Scrum. (2012)](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxjc3Njb2RlfGd4OjI4YTEzYTU3ZTE0YzUxMWQ) 
-1. [ZK Framework - Utilizando Ajax sem Javascript.  (2009)](http://www.univale.com.br/unisite/mundo-j/artigos/36JKFramework.pdf)
+1. ZK Framework - Utilizando Ajax sem Javascript.  (2009). Revista Mundo Java Edição 36.
 1. [Projeto Integra - Uma Proposta de Desenvolvimento de um Ambiente de Colaboração Integrado ao SIGA e aos Serviços Oferecidos pelo Google (2008)](http://sites.google.com/site/csscode/Home/integra.pdf?attredirects=0)
            
