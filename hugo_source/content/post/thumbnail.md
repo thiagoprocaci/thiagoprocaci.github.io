@@ -1,8 +1,8 @@
 +++
 author = "Thiago"
-title = "YouTube thumbnail classification using Pytorch"
+title = "YouTube thumbnail classification using PyTorch"
 date = "2020-12-13"
-description = "YouTube thumbnail classification using Pytorch"
+description = "YouTube thumbnail classification using PyTorch"
 tags = [
     "Pytorch", "Machine Learning", "thumbnail", "YouTube"
 ]
@@ -81,7 +81,7 @@ The softmax function will say if a thumbnail belongs to nerdologia or peixe babe
 
 [In this video](https://www.youtube.com/watch?v=bNb2fEVKeEo), the researcher Serena Yeung explains in detail how CNN works.
 
-The class `Net` describes our CNN architecture.
+The [class `Net`](https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py) describes our CNN architecture.
 
 ## Training and Testing Process
 

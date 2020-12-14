@@ -3,13 +3,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Thiago B. Procaci - YouTube thumbnail classification using Pytorch </title>
+    <title>Thiago B. Procaci - YouTube thumbnail classification using PyTorch </title>
 
     
     
     <meta content="Pytorch, Machine Learning, thumbnail, YouTube" name="keywords">
     
-    <meta content="Thiago B. Procaci - YouTube thumbnail classification using Pytorch" name="description">
+    <meta content="Thiago B. Procaci - YouTube thumbnail classification using PyTorch" name="description">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     
@@ -97,7 +97,7 @@ layui.use('element', function(){
             <div class="layui-card single-card">
                 <br />
                 <blockquote class="layui-elem-quote markdown-body single-title" >
-                    <h1>YouTube thumbnail classification using Pytorch</h1>
+                    <h1>YouTube thumbnail classification using PyTorch</h1>
                     <h3 style="margin-top:10px; margin-bottom:10px"> 
  
  
@@ -199,7 +199,7 @@ Then, we place a max-pooling 2d function in the pooling layer and flatten the ve
 Finally, we put two linear transformations in the fully connected layer that is followed by a softmax function.
 The softmax function will say if a thumbnail belongs to nerdologia or peixe babel channel.</p>
 <p><a href="https://www.youtube.com/watch?v=bNb2fEVKeEo">In this video</a>, the researcher Serena Yeung explains in detail how CNN works.</p>
-<p>The class <code>Net</code> describes our CNN architecture.</p>
+<p>The <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py">class <code>Net</code></a> describes our CNN architecture.</p>
 <h2 id="training-and-testing-process">Training and Testing Process</h2>
 <p>Then, we start the training process by dividing our dataset into training and test set.
 We instantiate the model <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py">(class <code>Net</code>)</a>, feed it with data, and calculate the metrics accuracy, precision, recall, and f-measure (F1) to verify the quality of the classifications.
