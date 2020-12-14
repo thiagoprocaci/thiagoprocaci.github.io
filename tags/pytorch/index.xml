@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pytorch on Thiago B. Procaci</title>
+    <link>https://thiagoprocaci.github.io/tags/pytorch/</link>
+    <description>Recent content in Pytorch on Thiago B. Procaci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://thiagoprocaci.github.io/tags/pytorch/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>YouTube thumbnail classification using Pytorch</title>
+      <link>https://thiagoprocaci.github.io/post/thumbnail/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://thiagoprocaci.github.io/post/thumbnail/</guid>
+      <description>Overview This is a step-by-step of how to classify thumbnail images with deep learning models using PyTorch library. All references to Python code (classes, method) can be found at this GitHub repository.
+Problem  Given two youtube channels, what thumbnail corresponds to each channel? It is a problem of image classification. We choose two YouTube channels to perform this classification: Nerdologia and Peixe Babel.  Downloading Thumbnails We are going to use CNN (convolutional neural network) to solve the problem.</description>
+    </item>
+    
+  </channel>
+</rss>

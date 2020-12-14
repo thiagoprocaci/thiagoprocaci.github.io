@@ -1,0 +1,251 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Thiago B. Procaci - YouTube thumbnail classification using Pytorch </title>
+
+    
+    
+    <meta content="Pytorch, Machine Learning, thumbnail, YouTube" name="keywords">
+    
+    <meta content="Thiago B. Procaci - YouTube thumbnail classification using Pytorch" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+
+    
+
+    
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-86885927-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+          gtag('config', 'UA-86885927-1');
+        </script>
+    
+
+    
+    
+    <script type="text/javascript" async
+        src="https://cdn.bootcss.com/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+
+    <link rel="stylesheet" href="/layui/css/layui.css">
+    <link rel="stylesheet" href="/self/css/default.css">
+    <script src="/layui/layui.js"></script>
+
+
+    <link rel="stylesheet" async href="/self/css/markdown.min.css">
+    <link rel="stylesheet" async href="/self/css/gallery.css">
+    <link rel="stylesheet" async href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="/self/js/lazysizes.min.js" async></script></head>
+<body>
+    
+    <header class="layui-header layui-bg-cyan">
+
+    
+    
+    <a class="nav-self-logo" href="/">
+        Thiago B. Procaci
+    </a>
+
+    <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
+        
+        
+        <li class="layui-nav-item" id="nav_big"><a href="/post/">Posts</a></li>
+        
+
+        
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/about/">Skills and Publications</a></li>
+            
+        
+
+        
+        <li class="layui-nav-item" id="nav_small">
+            <a href="javascript:;">
+                <i class="layui-icon layui-icon-app" style="font-size: 24px;"></i>
+            </a>
+
+            <dl class="layui-nav-child">
+                
+                <dd><a href="/post/">Posts</a></dd>
+                
+
+                
+                    <dd><a href="/about/">Skills and Publications</a></dd>
+                
+            </dl>
+        </li>
+    </ul>
+</header>
+
+<script>
+layui.use('element', function(){
+  var element = layui.element;
+});
+</script>
+        <div id="content" style="min-height:80%">
+<div class="layui-container" style="margin-bottom: 10px">
+    
+
+    <div class="layui-row layui-col-space10">
+        <div class="layui-col-md12 layui-col-sm12 layui-col-xs12">
+            <div class="layui-card single-card">
+                <br />
+                <blockquote class="layui-elem-quote markdown-body single-title" >
+                    <h1>YouTube thumbnail classification using Pytorch</h1>
+                    <h3 style="margin-top:10px; margin-bottom:10px"> 
+ 
+ 
+    
+
+    
+        <a href="/tags/pytorch">
+            <span class="layui-badge" style="vertical-align: 2px;">Pytorch</span>
+        </a>
+    
+        <a href="/tags/machine-learning">
+            <span class="layui-badge" style="vertical-align: 2px;">Machine Learning</span>
+        </a>
+    
+        <a href="/tags/thumbnail">
+            <span class="layui-badge" style="vertical-align: 2px;">thumbnail</span>
+        </a>
+    
+        <a href="/tags/youtube">
+            <span class="layui-badge" style="vertical-align: 2px;">YouTube</span>
+        </a>
+    
+</h3>
+                </blockquote>
+                <div class="layui-card-body markdown-body single-content">
+                    <h2 id="overview">Overview</h2>
+<p>This is a step-by-step of how to classify thumbnail images with deep learning models using PyTorch library. All references to Python code (classes, method) can be found at <a href="https://github.com/thiagoprocaci/thumbnail-classification">this GitHub repository</a>.</p>
+<h2 id="problem">Problem</h2>
+<ul>
+<li>Given two youtube channels, what <a href="https://www.quora.com/What-is-a-YouTube-thumbnail">thumbnail</a> corresponds to each channel?</li>
+<li>It is a problem of image classification.</li>
+<li>We choose two YouTube channels to perform this classification: <a href="https://www.youtube.com/user/nerdologia">Nerdologia</a> and <a href="https://www.youtube.com/user/CanalPeixeBabel">Peixe Babel</a>.</li>
+</ul>
+<h2 id="downloading-thumbnails">Downloading Thumbnails</h2>
+<p>We are going to use <a href="https://en.wikipedia.org/wiki/Convolutional_neural_network">CNN (convolutional neural network)</a> to solve the problem.
+The first task that we need to do is to download all thumbnails before starting building the machine learning model.
+This task is performed by the class YouTubeCrawler. We use pyyoutube library o access YouTube videos through an API.
+Besides, to do the download, you must generate the YouTube API key. See this <a href="https://console.developers.google.com/apis/credentials">link</a> to get details about the API key.
+Then, paste your key in the constructor of <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py">YouTubeCrawler class</a>.</p>
+<pre><code>class YouTubeCrawler:
+
+      def __init__(self):
+        self.channels = [YouTubeCrawler.PEIXE_BABEL, YouTubeCrawler.NERDOLOGIA]
+        api_key = '' # paste your key here
+        self.api = Api(api_key=api_key)
+
+</code></pre><p>After that,  by calling <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py">the <code>fetchThumbnails</code> method</a>, you will retrieve 400 thumbnails of each channel.</p>
+<h2 id="rgb-colors-as-input-features">RGB Colors as Input Features</h2>
+<p>Each thumbnail image can be described as vectors of <a href="https://en.wikipedia.org/wiki/RGB_color_model">RGB colors</a>.
+R stands for red, G stands for green, and B stands for blue.
+It means that a thumbnail has three vectors of numbers where each represents how much of the red, green, and blue the image has.</p>
+<p>We extract these vectors in <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py">the <code>fetchThumbnails</code> method</a> and put them into a <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py">Thumbnail</a> class instance.
+After this extraction process, you have the original image and the RGBs vectors.
+In figure 1, there is an example of a thumbnail of nerdologia channel.</p>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="/img/nerdologia_original.png" alt="Example of Nerdologia Thumbnail"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><em>Figure 1. Example of a thumbnail</em></td>
+</tr>
+</tbody>
+</table>
+<p>In figure 2, we plot the same image three times, each one considering one vector of colors.</p>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="/img/nerdologia_rgb.png" alt="Example of Nerdologia Thumbnail RGB"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><em>Figure 2. Thumbnail RGB</em></td>
+</tr>
+</tbody>
+</table>
+<p>In figure 3, we have the RGB distribution represented by histograms.</p>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="/img/nerdologia_rgb_hist.png" alt="Example of Nerdologia Thumbnail RGB"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><em>Figure 3. RGB vectors as histograms</em></td>
+</tr>
+</tbody>
+</table>
+<p>The code that plots figure 1,2,3 is in <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py">the <code>plot method</code> in the class <code>Thumbnail</code></a>.
+We also save the downloaded thumbnails in the <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/thumbnails.npz">file <code>thumbnails.npz</code></a>.</p>
+<h2 id="neural-network-architecture">Neural Network Architecture</h2>
+<p>Once having the input features, the next step is to define the CNN architecture.
+We put two 2d convolutions followed by relu activation function in the convolution/activation layer.
+Then, we place a max-pooling 2d function in the pooling layer and flatten the vectors.
+Finally, we put two linear transformations in the fully connected layer that is followed by a softmax function.
+The softmax function will say if a thumbnail belongs to nerdologia or peixe babel channel.</p>
+<p><a href="https://www.youtube.com/watch?v=bNb2fEVKeEo">In this video</a>, the researcher Serena Yeung explains in detail how CNN works.</p>
+<p>The class <code>Net</code> describes our CNN architecture.</p>
+<h2 id="training-and-testing-process">Training and Testing Process</h2>
+<p>Then, we start the training process by dividing our dataset into training and test set.
+We instantiate the model <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py">(class <code>Net</code>)</a>, feed it with data, and calculate the metrics accuracy, precision, recall, and f-measure (F1) to verify the quality of the classifications.
+After each iteration, it is possible to see the model improvement in the log:</p>
+<pre><code>Train Epoch: 10 [530/574 (91%)]	Loss: 0.619260
+Train Epoch: 10 [540/574 (93%)]	Loss: 0.410600
+Train Epoch: 10 [550/574 (95%)]	Loss: 0.341183
+Train Epoch: 10 [560/574 (97%)]	Loss: 0.436197
+Train Epoch: 10 [228/574 (98%)]	Loss: 1.016665
+
+Test set: Average loss: 0.2127, Accuracy: 94/101 (93.07%), Precision: 0.94, Recall: 0.92, F1: 0.93 
+</code></pre><p>Take a look at the method train and test to see how we build the model.</p>
+<h2 id="predictions">Predictions</h2>
+<p>Having the model, we can start to make predictions. You inform a new thumbnail and the model will classify it into nerdologia and peixe babel (our channels).
+That&rsquo;s the idea of the <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py">method <code>predict</code></a>.
+Below in figure 4, there is an example of a prediction where the model classified the thumbnail as nerdologia.</p>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="/img/prediction.png" alt="Example of Prediction"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><em>Figure 4. Prediction</em></td>
+</tr>
+</tbody>
+</table>
+<h2 id="conclusion">Conclusion</h2>
+<p>PyTorch is very developer-friendly. It gives you the possibility to define reusable classes/modules in an object-oriented programming manner.
+I find PyTorch approach flexible and powerful.</p>
+</div>
+            </div>
+        </div>
+
+        
+    </div>
+</div>
+
+
+        </div><footer>
+    
+    
+    <div class="layui-container">
+        <p class="copyright"> </p>
+    </div>
+</footer>
+</body>
+</html>
