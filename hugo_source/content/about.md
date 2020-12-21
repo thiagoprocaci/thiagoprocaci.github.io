@@ -21,10 +21,10 @@ Thiago is a data scientist and a senior software developer. His main  skills are
 ## International Publications
 
 
-1. [How Do Outstanding Users Differ From Other Users in Q&A Communities? (2019)](https://dl.acm.org/citation.cfm?id=3344928)
-1. [Trust Investigation in Communities Using Feature Learning (2019)](https://ieeexplore.ieee.org/abstract/document/8820840/)
+1. [How Do Outstanding Users Differ From Other Users in Q&A Communities? (2019)](https://www.researchgate.net/publication/335872151_How_Do_Outstanding_Users_Differ_From_Other_Users_in_QA_Communities)
+1. [Trust Investigation in Communities Using Feature Learning (2019)](https://www.researchgate.net/publication/335581248_Trust_Investigation_in_Communities_Using_Feature_Learning)
 1. [Learning in Communities: How Do Outstanding Users Differ From Other Users? (2018)](https://www.researchgate.net/publication/326999838_Learning_in_Communities_How_Do_Outstanding_Users_Differ_From_Other_Users)
-1. [Experts and likely to be closed discussions in question and answer communities: An analytical overview (2018)](https://www.sciencedirect.com/science/article/pii/S0747563218302814)
+1. [Experts and likely to be closed discussions in question and answer communities: An analytical overview (2018)](https://www.researchgate.net/publication/325598991_Experts_and_Likely_to_be_Closed_Discussions_in_Question_and_Answer_Communities_An_Analytical_Overview?_sg=oNcXuLUZiRSkERznzVaH-R-vITUsfXQk21LkSEBzKV9D-nEoAq75bToww-RpzzXdZaTlN6ET_6_z2u8z2Xd8h29KcPDJNT4wIm7Ucf8k.jWSB899nUHzyWSEUCuM83wP2qdwMMUs_ztdj6O15fpRWOricf0GUESr2QHy5mLMIqj3dqIxYBiNqNTH78z8Ohw)
 1. [Modelling Experts Behaviour in Q&A Communities to Predict Worthy Discussions. (2017) ](https://www.researchgate.net/publication/318240192_Modelling_Experts_Behaviour_in_QA_Communities_to_Predict_Worthy_Discussions)
 1. [Finding Topical Experts in Question & Answer Communities. (2016)](https://www.researchgate.net/publication/311313665_Finding_Topical_Experts_in_Question_Answer_Communities)
 1. [How to find people who can help to answer a question? - Analyses of metrics and machine learning in online communities. (2014)](http://www.sciencedirect.com/science/article/pii/S0747563214007420)	
