@@ -6,18 +6,14 @@
     <description>Recent content in Galleries on Thiago B. Procaci</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://thiagoprocaci.github.io/gallery/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://thiagoprocaci.github.io/gallery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A gallery</title>
       <link>https://thiagoprocaci.github.io/gallery/a/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://thiagoprocaci.github.io/gallery/a/</guid>
-      <description>  /img/index.png     /img/list.png     /img/single.png     /img/zone.png     /img/about.png   </description>
+      <description> /img/index.png    /img/list.png    /img/single.png    /img/zone.png    /img/about.png   </description>
     </item>
     
   </channel>
