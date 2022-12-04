@@ -137,13 +137,12 @@ The first task that we need to do is to download all thumbnails before starting 
 This task is performed by the class YouTubeCrawler. We use pyyoutube library o access YouTube videos through an API.
 Besides, to do the download, you must generate the YouTube API key. See this <a href="https://console.developers.google.com/apis/credentials">link</a> to get details about the API key.
 Then, paste your key in the constructor of <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py">YouTubeCrawler class</a>.</p>
-<pre><code>class YouTubeCrawler:
+<pre tabindex="0"><code>class YouTubeCrawler:
 
       def __init__(self):
         self.channels = [YouTubeCrawler.PEIXE_BABEL, YouTubeCrawler.NERDOLOGIA]
-        api_key = '' # paste your key here
+        api_key = &#39;&#39; # paste your key here
         self.api = Api(api_key=api_key)
-
 </code></pre><p>After that,  by calling <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py">the <code>fetchThumbnails</code> method</a>, you will retrieve 400 thumbnails of each channel.</p>
 <h2 id="rgb-colors-as-input-features">RGB Colors as Input Features</h2>
 <p>Each thumbnail image can be described as vectors of <a href="https://en.wikipedia.org/wiki/RGB_color_model">RGB colors</a>.
@@ -204,7 +203,7 @@ The softmax function will say if a thumbnail belongs to nerdologia or peixe babe
 <p>Then, we start the training process by dividing our dataset into training and test set.
 We instantiate the model <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py">(class <code>Net</code>)</a>, feed it with data, and calculate the metrics accuracy, precision, recall, and f-measure (F1) to verify the quality of the classifications.
 After each iteration, it is possible to see the model improvement in the log:</p>
-<pre><code>Train Epoch: 10 [530/574 (91%)]	Loss: 0.619260
+<pre tabindex="0"><code>Train Epoch: 10 [530/574 (91%)]	Loss: 0.619260
 Train Epoch: 10 [540/574 (93%)]	Loss: 0.410600
 Train Epoch: 10 [550/574 (95%)]	Loss: 0.341183
 Train Epoch: 10 [560/574 (97%)]	Loss: 0.436197

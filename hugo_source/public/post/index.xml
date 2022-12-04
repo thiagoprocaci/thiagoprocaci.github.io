@@ -14,7 +14,7 @@
       
       <guid>https://thiagoprocaci.github.io/post/thumbnail/</guid>
       <description>Overview This is a step-by-step of how to classify thumbnail images with deep learning models using PyTorch library. All references to Python code (classes, method) can be found at this GitHub repository.
-Problem  Given two youtube channels, what thumbnail corresponds to each channel? It is a problem of image classification. We choose two YouTube channels to perform this classification: Nerdologia and Peixe Babel.  Downloading Thumbnails We are going to use CNN (convolutional neural network) to solve the problem.</description>
+Problem Given two youtube channels, what thumbnail corresponds to each channel? It is a problem of image classification. We choose two YouTube channels to perform this classification: Nerdologia and Peixe Babel. Downloading Thumbnails We are going to use CNN (convolutional neural network) to solve the problem.</description>
     </item>
     
     <item>
