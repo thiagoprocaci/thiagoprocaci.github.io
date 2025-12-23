@@ -4,18 +4,16 @@
     <title>YouTube on Thiago B. Procaci</title>
     <link>https://thiagoprocaci.github.io/tags/youtube/</link>
     <description>Recent content in YouTube on Thiago B. Procaci</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://thiagoprocaci.github.io/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://thiagoprocaci.github.io/tags/youtube/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>YouTube thumbnail classification using PyTorch</title>
       <link>https://thiagoprocaci.github.io/post/thumbnail/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://thiagoprocaci.github.io/post/thumbnail/</guid>
-      <description>Overview This is a step-by-step of how to classify thumbnail images with deep learning models using PyTorch library. All references to Python code (classes, method) can be found at this GitHub repository.
-Problem Given two youtube channels, what thumbnail corresponds to each channel? It is a problem of image classification. We choose two YouTube channels to perform this classification: Nerdologia and Peixe Babel. Downloading Thumbnails We are going to use CNN (convolutional neural network) to solve the problem.</description>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This is a step-by-step of how to classify thumbnail images with deep learning models using PyTorch library. All references to Python code (classes, method) can be found at &lt;a href=&#34;https://github.com/thiagoprocaci/thumbnail-classification&#34;&gt;this GitHub repository&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Given two youtube channels, what &lt;a href=&#34;https://www.quora.com/What-is-a-YouTube-thumbnail&#34;&gt;thumbnail&lt;/a&gt; corresponds to each channel?&lt;/li&gt;&#xA;&lt;li&gt;It is a problem of image classification.&lt;/li&gt;&#xA;&lt;li&gt;We choose two YouTube channels to perform this classification: &lt;a href=&#34;https://www.youtube.com/user/nerdologia&#34;&gt;Nerdologia&lt;/a&gt; and &lt;a href=&#34;https://www.youtube.com/user/CanalPeixeBabel&#34;&gt;Peixe Babel&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;downloading-thumbnails&#34;&gt;Downloading Thumbnails&lt;/h2&gt;&#xA;&lt;p&gt;We are going to use &lt;a href=&#34;https://en.wikipedia.org/wiki/Convolutional_neural_network&#34;&gt;CNN (convolutional neural network)&lt;/a&gt; to solve the problem.&#xA;The first task that we need to do is to download all thumbnails before starting building the machine learning model.&#xA;This task is performed by the class YouTubeCrawler. We use pyyoutube library o access YouTube videos through an API.&#xA;Besides, to do the download, you must generate the YouTube API key. See this &lt;a href=&#34;https://console.developers.google.com/apis/credentials&#34;&gt;link&lt;/a&gt; to get details about the API key.&#xA;Then, paste your key in the constructor of &lt;a href=&#34;https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py&#34;&gt;YouTubeCrawler class&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>lifelong learner on Thiago B. Procaci</title>
+    <title>Lifelong Learner on Thiago B. Procaci</title>
     <link>https://thiagoprocaci.github.io/tags/lifelong-learner/</link>
-    <description>Recent content in lifelong learner on Thiago B. Procaci</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Lifelong Learner on Thiago B. Procaci</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://thiagoprocaci.github.io/tags/lifelong-learner/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://thiagoprocaci.github.io/tags/lifelong-learner/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lifelong learner</title>
       <link>https://thiagoprocaci.github.io/post/lifelonglearner/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://thiagoprocaci.github.io/post/lifelonglearner/</guid>
-      <description>Many of us describe ourselves applying labels that shape our identity. Someone says, &amp;ldquo;I&amp;rsquo;m a musician&amp;rdquo;, and this behavior gives him a sense of belonging, feeling connected to a group. Others prefer to describe themselves by their characteristics, hobbies or lifestyle such as vegetarians, extroverts, gamer, easygoing. Each label indicates a set of habits.
-Zygmunt Bauman, a sociologist who described the world from a fascinating perspective, says that we live in the liquid modernity in which everything changes quickly and nothing is done to last.</description>
+      <description>&lt;p&gt;Many of us describe ourselves applying labels that shape our identity. Someone says, &amp;ldquo;I&amp;rsquo;m a musician&amp;rdquo;, and this behavior gives him a sense of belonging, feeling connected to a group.  Others prefer to describe themselves by their characteristics, hobbies or lifestyle such as vegetarians,  extroverts, gamer, easygoing. Each label indicates a set of habits.&lt;/p&gt;&#xA;&lt;p&gt;Zygmunt Bauman, a sociologist who described the world from a fascinating perspective,  says that we live in the liquid modernity in which everything changes quickly and nothing is done to last.  Every day, new content is created and knowledge grows fast.  Yuval Harari, the author of Homo Deus, states that we are the first generation that does not know what to teach the future generations.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

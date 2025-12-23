@@ -4,103 +4,79 @@
     <title>Thiago B. Procaci</title>
     <link>https://thiagoprocaci.github.io/</link>
     <description>Recent content on Thiago B. Procaci</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://thiagoprocaci.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://thiagoprocaci.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>YouTube thumbnail classification using PyTorch</title>
       <link>https://thiagoprocaci.github.io/post/thumbnail/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://thiagoprocaci.github.io/post/thumbnail/</guid>
-      <description>Overview This is a step-by-step of how to classify thumbnail images with deep learning models using PyTorch library. All references to Python code (classes, method) can be found at this GitHub repository.
-Problem Given two youtube channels, what thumbnail corresponds to each channel? It is a problem of image classification. We choose two YouTube channels to perform this classification: Nerdologia and Peixe Babel. Downloading Thumbnails We are going to use CNN (convolutional neural network) to solve the problem.</description>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;This is a step-by-step of how to classify thumbnail images with deep learning models using PyTorch library. All references to Python code (classes, method) can be found at &lt;a href=&#34;https://github.com/thiagoprocaci/thumbnail-classification&#34;&gt;this GitHub repository&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Given two youtube channels, what &lt;a href=&#34;https://www.quora.com/What-is-a-YouTube-thumbnail&#34;&gt;thumbnail&lt;/a&gt; corresponds to each channel?&lt;/li&gt;&#xA;&lt;li&gt;It is a problem of image classification.&lt;/li&gt;&#xA;&lt;li&gt;We choose two YouTube channels to perform this classification: &lt;a href=&#34;https://www.youtube.com/user/nerdologia&#34;&gt;Nerdologia&lt;/a&gt; and &lt;a href=&#34;https://www.youtube.com/user/CanalPeixeBabel&#34;&gt;Peixe Babel&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;downloading-thumbnails&#34;&gt;Downloading Thumbnails&lt;/h2&gt;&#xA;&lt;p&gt;We are going to use &lt;a href=&#34;https://en.wikipedia.org/wiki/Convolutional_neural_network&#34;&gt;CNN (convolutional neural network)&lt;/a&gt; to solve the problem.&#xA;The first task that we need to do is to download all thumbnails before starting building the machine learning model.&#xA;This task is performed by the class YouTubeCrawler. We use pyyoutube library o access YouTube videos through an API.&#xA;Besides, to do the download, you must generate the YouTube API key. See this &lt;a href=&#34;https://console.developers.google.com/apis/credentials&#34;&gt;link&lt;/a&gt; to get details about the API key.&#xA;Then, paste your key in the constructor of &lt;a href=&#34;https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py&#34;&gt;YouTubeCrawler class&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Polonius&#39; advice to Laertes and the contemporary world</title>
       <link>https://thiagoprocaci.github.io/post/hamlet/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://thiagoprocaci.github.io/post/hamlet/</guid>
-      <description>Polonius and Laertes are characters in Shakespeare&amp;rsquo;s Hamlet. I encourage the study of classics such as Hamlet since we have a lot to learn from them. The play is a tragedy, set in Denmark, where Prince Hamlet seeks to avenge the death of his father who was murdered by his brother Claudius. Afterward, Claudius became the king. The plot is about this regicide.
-Polonius was the silly man of the kingdom (tedious old fool as described by Prince Hamlet) and the chief counselor of Claudius.</description>
+      <description>&lt;p&gt;Polonius and Laertes are characters in Shakespeare&amp;rsquo;s Hamlet. I encourage the study of classics such as Hamlet since we have a lot to learn from them. The play is a tragedy, set in Denmark, where Prince Hamlet seeks to avenge the death of his father who was murdered by his brother Claudius. Afterward, Claudius became the king. The plot is about this regicide.&lt;/p&gt;&#xA;&lt;p&gt;Polonius was the silly man of the kingdom (tedious old fool as described by Prince Hamlet)  and the chief counselor of Claudius. Laertes is the son of Polonius and Laertes is leaving for France. In this scene, Shakespeare&amp;rsquo;s ability appears in Polonius&amp;rsquo;s advice to Laertes before his departure for France. In other words, Shakespeare surprises us when he makes wise words come from the silliest person in the kingdom, Polonius. The advice can be divided into 8 recommendations.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Data Science: trend, applicability and new data</title>
       <link>https://thiagoprocaci.github.io/post/datascience/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://thiagoprocaci.github.io/post/datascience/</guid>
-      <description>Recently, I have been involved in data science projects as never before. Data science is a trend. Saying that someone is data scientist is nice but few know what (s)he actually does. My experience tells that applying techniques quite easy, even in the data science field. The challenge is to find a problem that a technique solves.
-Back to the beginning, why am I asked to solve issues through data science?</description>
+      <description>&lt;p&gt;Recently, I have been involved in data science projects as never before.&#xA;Data science is a trend.  Saying that someone is data scientist is nice but few know what (s)he actually does. My experience tells that applying techniques quite easy, even in the data science field. The challenge is to find a problem that a technique solves.&lt;/p&gt;&#xA;&lt;p&gt;Back to the beginning, why am I asked to solve issues through data science? Besides my background, which might suggest that my principal tool is always data science methods, the problem should come first instead of a data science solution. After a deeper problem investigation, I could say if the problem is related to data science. Such confusion might be because of the inexact definition of terms such as data science or data scientist. For instance, a usual definition of data scientist is the professional who has expertise in computer science, statistics, and artificial intelligence. This lack of definition can be the reason for such confusion.   Another issue is the marketing involved, which may explain why someone wants data science solutions. Data science is in the peak of expectations and announcing that a company provides data science solutions is a marketing strategy.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Lifelong learner</title>
       <link>https://thiagoprocaci.github.io/post/lifelonglearner/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://thiagoprocaci.github.io/post/lifelonglearner/</guid>
-      <description>Many of us describe ourselves applying labels that shape our identity. Someone says, &amp;ldquo;I&amp;rsquo;m a musician&amp;rdquo;, and this behavior gives him a sense of belonging, feeling connected to a group. Others prefer to describe themselves by their characteristics, hobbies or lifestyle such as vegetarians, extroverts, gamer, easygoing. Each label indicates a set of habits.
-Zygmunt Bauman, a sociologist who described the world from a fascinating perspective, says that we live in the liquid modernity in which everything changes quickly and nothing is done to last.</description>
+      <description>&lt;p&gt;Many of us describe ourselves applying labels that shape our identity. Someone says, &amp;ldquo;I&amp;rsquo;m a musician&amp;rdquo;, and this behavior gives him a sense of belonging, feeling connected to a group.  Others prefer to describe themselves by their characteristics, hobbies or lifestyle such as vegetarians,  extroverts, gamer, easygoing. Each label indicates a set of habits.&lt;/p&gt;&#xA;&lt;p&gt;Zygmunt Bauman, a sociologist who described the world from a fascinating perspective,  says that we live in the liquid modernity in which everything changes quickly and nothing is done to last.  Every day, new content is created and knowledge grows fast.  Yuval Harari, the author of Homo Deus, states that we are the first generation that does not know what to teach the future generations.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://thiagoprocaci.github.io/about/</link>
       <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://thiagoprocaci.github.io/about/</guid>
-      <description>Skills Thiago is a data scientist and a senior software developer. His main skills are:
-Agile Software Development Social Network Analysis Applied Statistics Machine Learning International Publications How Do Outstanding Users Differ From Other Users in Q&amp;amp;A Communities? (2019) Trust Investigation in Communities Using Feature Learning (2019) Learning in Communities: How Do Outstanding Users Differ From Other Users? (2018) Experts and likely to be closed discussions in question and answer communities: An analytical overview (2018) Modelling Experts Behaviour in Q&amp;amp;A Communities to Predict Worthy Discussions.</description>
+      <description>&lt;h2 id=&#34;skills&#34;&gt;Skills&lt;/h2&gt;&#xA;&lt;p&gt;Thiago is a data scientist and a senior software developer. His main  skills are:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Agile Software Development&lt;/li&gt;&#xA;&lt;li&gt;Social Network Analysis&lt;/li&gt;&#xA;&lt;li&gt;Applied Statistics&lt;/li&gt;&#xA;&lt;li&gt;Machine Learning&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;international-publications&#34;&gt;International Publications&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/publication/335872151_How_Do_Outstanding_Users_Differ_From_Other_Users_in_QA_Communities&#34;&gt;How Do Outstanding Users Differ From Other Users in Q&amp;amp;A Communities? (2019)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/publication/335581248_Trust_Investigation_in_Communities_Using_Feature_Learning&#34;&gt;Trust Investigation in Communities Using Feature Learning (2019)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/publication/326999838_Learning_in_Communities_How_Do_Outstanding_Users_Differ_From_Other_Users&#34;&gt;Learning in Communities: How Do Outstanding Users Differ From Other Users? (2018)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/publication/325598991_Experts_and_Likely_to_be_Closed_Discussions_in_Question_and_Answer_Communities_An_Analytical_Overview?_sg=oNcXuLUZiRSkERznzVaH-R-vITUsfXQk21LkSEBzKV9D-nEoAq75bToww-RpzzXdZaTlN6ET_6_z2u8z2Xd8h29KcPDJNT4wIm7Ucf8k.jWSB899nUHzyWSEUCuM83wP2qdwMMUs_ztdj6O15fpRWOricf0GUESr2QHy5mLMIqj3dqIxYBiNqNTH78z8Ohw&#34;&gt;Experts and likely to be closed discussions in question and answer communities: An analytical overview (2018)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/publication/318240192_Modelling_Experts_Behaviour_in_QA_Communities_to_Predict_Worthy_Discussions&#34;&gt;Modelling Experts Behaviour in Q&amp;amp;A Communities to Predict Worthy Discussions. (2017) &lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/publication/311313665_Finding_Topical_Experts_in_Question_Answer_Communities&#34;&gt;Finding Topical Experts in Question &amp;amp; Answer Communities. (2016)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.sciencedirect.com/science/article/pii/S0747563214007420&#34;&gt;How to find people who can help to answer a question? - Analyses of metrics and machine learning in online communities. (2014)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://dx.doi.org/10.4018/ijksr.2014040102&#34;&gt;Finding Experts on Facebook Communities. (2014)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/publication/262912250_Finding_Reliable_People_in_Online_Communities_of_Questions_and_Answers_Analysis_of_Metrics_and_Scope_Reduction&#34;&gt;Finding Reliable People in Online Communities of Questions and Answers - Analysis of Metrics and Scope Reduction. (2014)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/publication/272154538_Finding_Reliable_Users_on_Online_Communities_Using_Artificial_Neural_Networks&#34;&gt;Finding Reliable Users on Online Communities Using Artificial Neural Networks. (2014)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;other-publications&#34;&gt;Other Publications&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://ieducacao.ceie-br.org/ambientes-pessoais-aprendizagem/&#34;&gt;Aprender ao longo da vida através de ambientes pessoais de aprendizagem (2021)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://br-ie.org/pub/index.php/rbie/article/view/v28p229&#34;&gt;Captura da Aceitação do Blackboard e do Tipo de Motivação de Alunos de Cursos Presenciais de Ciências Exatas em uma Universidade Privada. (2020)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.publit.com.br/livraria/produto/692/pesquisa-e-inovacao-visoes-e-intersecoes&#34;&gt;Coautor do capítulo &amp;ldquo;Da Pesquisa Científica à Inovação&amp;rdquo; do livro &amp;ldquo;Pesquisa e Inovação: Visões e Interseções&amp;rdquo;. (2017)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://seer.unirio.br/index.php/isys/article/download/5959/5581&#34;&gt;Prospecção Tecnológica: Levantamento de Patentes, Atuação da Academia e Potenciais Inovações em Ambientes de Aprendizagem no Brasil de 2000 a 2015. (2016)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://dx.doi.org/10.5753/cbie.sbie.2015.1323&#34;&gt;Exploratório das Produções e Colaborações entre Pesquisadores em Informática na Educação: uma Análise de Publicações do Simpósio Brasileiro de Informática na Educação de 2001 a 2013. (2015)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.br-ie.org/pub/index.php/wcbie/article/download/6072/4256&#34;&gt;Análise Empírica de Comunidades Online baseadas em Enriquecimento Semântico para encontrar Usuários Especialistas. (2015)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.br-ie.org/pub/index.php/wcbie/article/view/5933&#34;&gt;Identificando Colegas para Ajudar em Minhas Dúvidas: Um Estudo Empírico em Comunidades de Perguntas e Respostas. (2015)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.researchgate.net/publication/262912086_Encontrando_Usuarios_Confiaveis_em_Comunidades_Online_de_Perguntas_e_Respostas_Atraves_de_seu_Indice_de_Confianca&#34;&gt;Encontrando Usuários Confiáveis em Comunidades Online de Perguntas e Respostas Através de seu Índice de Confiança. (2014)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://docs.google.com/viewer?a=v&amp;amp;pid=sites&amp;amp;srcid=ZGVmYXVsdGRvbWFpbnxjc3Njb2RlfGd4OjI4YTEzYTU3ZTE0YzUxMWQ&#34;&gt;Importância dos Testes Automatizados e da Integração Contínua no Uso do Scrum. (2012)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;ZK Framework - Utilizando Ajax sem Javascript.  (2009). Revista Mundo Java Edição 36.&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://sites.google.com/site/csscode/Home/integra.pdf?attredirects=0&#34;&gt;Projeto Integra - Uma Proposta de Desenvolvimento de um Ambiente de Colaboração Integrado ao SIGA e aos Serviços Oferecidos pelo Google (2008)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
     </item>
-    
     <item>
       <title>Innovation and Invention</title>
       <link>https://thiagoprocaci.github.io/post/innovation/</link>
       <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://thiagoprocaci.github.io/post/innovation/</guid>
-      <description>I have been working as a software developer for a long time and I usually listen to my coworkers’ opinions using arguments like “our company needs to innovate”. However, when you talk about innovation in a company, you will see people coming up with ideas such as technology adoption or the usage of a new cool methodology to create or improve something. Everybody agrees that it is good to create new things and some people feel proud of their creation.</description>
+      <description>&lt;p&gt;I have been working as a software developer for a long time and I usually listen to my coworkers’ opinions using arguments like “our company needs to innovate”. However, when you talk about innovation in a company, you will see people coming up with ideas such as technology adoption or the usage of a new cool methodology to create or improve something.&#xA;Everybody agrees that it is good to create new things and some people feel proud of their creation. However, innovation is not just a creation or a simple improvement. It is a more complex process.&#xA;In this text, I would like to discuss innovation.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Happy Birthday to BM</title>
       <link>https://thiagoprocaci.github.io/zone/3/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://thiagoprocaci.github.io/zone/3/</guid>
-      <description>A scholarship A letter from my email says that I have got a scholarship.</description>
+      <description>&lt;h1 id=&#34;a-scholarship&#34;&gt;A scholarship&lt;/h1&gt;&#xA;&lt;p&gt;A letter from my email says that I have got a scholarship.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Happy Birthday to BM</title>
       <link>https://thiagoprocaci.github.io/zone/1/</link>
       <pubDate>Mon, 28 Oct 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://thiagoprocaci.github.io/zone/1/</guid>
-      <description>Happy Birthday to BM! Happy Birthday to you, Be happy and healthy!</description>
+      <description>&lt;h1 id=&#34;happy-birthday-to-bm&#34;&gt;Happy Birthday to BM!&lt;/h1&gt;&#xA;&lt;p&gt;Happy Birthday to you, Be happy and healthy!&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>I got my first salary</title>
       <link>https://thiagoprocaci.github.io/zone/2/</link>
       <pubDate>Mon, 14 Oct 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://thiagoprocaci.github.io/zone/2/</guid>
-      <description>I got my first salary In this semester, I am a TA for C Language Programming. Today I got my first salary in my life. I felt proud of myself.</description>
+      <description>&lt;h1 id=&#34;i-got-my-first-salary&#34;&gt;I got my first salary&lt;/h1&gt;&#xA;&lt;p&gt;In this semester, I am a TA for C Language Programming. Today I got my first salary in my life. I felt proud of myself.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>A gallery</title>
       <link>https://thiagoprocaci.github.io/gallery/a/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://thiagoprocaci.github.io/gallery/a/</guid>
-      <description> /img/index.png /img/list.png /img/single.png /img/zone.png /img/about.png </description>
+      <description>&lt;p&gt;&lt;figure&gt;&lt;img src=&#34;https://thiagoprocaci.github.io/img/screenshot.png&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;/img/index.png&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;figure&gt;&lt;img src=&#34;https://thiagoprocaci.github.io/img/list.png&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;/img/list.png&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;figure&gt;&lt;img src=&#34;https://thiagoprocaci.github.io/img/single.png&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;/img/single.png&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;figure&gt;&lt;img src=&#34;https://thiagoprocaci.github.io/img/zone.png&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;/img/zone.png&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;figure&gt;&lt;img src=&#34;https://thiagoprocaci.github.io/img/about.png&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;/img/about.png&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
