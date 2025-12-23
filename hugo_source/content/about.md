@@ -9,12 +9,14 @@ author = "Thiago"
 
 ## Skills
 
-Thiago is a data scientist and a senior software developer. His main  skills are:
-	
-- Agile Software Development 
-- Social Network Analysis 
-- Applied Statistics
-- Machine Learning
+Thiago is a data scientist, senior software engineer, tech lead, and engineering manager with nearly a decade of experience in Legal Tech. He holds a PhD in Computer Science with a focus on Social Network Analysis, and has published in top-tier academic venues. His main skills are:
+
+- Legal Tech & Knowledge Base Engineering
+- Data Engineering & Pipeline Architecture
+- Social Network Analysis
+- Machine Learning & Applied Statistics
+- Technical Leadership & Team Management
+- API Design & System Integration
 
 
 
