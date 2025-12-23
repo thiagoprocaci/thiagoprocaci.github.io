@@ -2,129 +2,129 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Thiago B. Procaci</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://thiagoprocaci.github.io/tags/</link>
     <description>Recent content in Tags on Thiago B. Procaci</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://thiagoprocaci.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Index</title>
-      <link>http://localhost:1313/tags/index/</link>
+      <link>https://thiagoprocaci.github.io/tags/index/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/index/</guid>
+      <guid>https://thiagoprocaci.github.io/tags/index/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine Learning</title>
-      <link>http://localhost:1313/tags/machine-learning/</link>
+      <link>https://thiagoprocaci.github.io/tags/machine-learning/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/machine-learning/</guid>
+      <guid>https://thiagoprocaci.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Pytorch</title>
-      <link>http://localhost:1313/tags/pytorch/</link>
+      <link>https://thiagoprocaci.github.io/tags/pytorch/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/pytorch/</guid>
+      <guid>https://thiagoprocaci.github.io/tags/pytorch/</guid>
       <description></description>
     </item>
     <item>
       <title>Thumbnail</title>
-      <link>http://localhost:1313/tags/thumbnail/</link>
+      <link>https://thiagoprocaci.github.io/tags/thumbnail/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/thumbnail/</guid>
+      <guid>https://thiagoprocaci.github.io/tags/thumbnail/</guid>
       <description></description>
     </item>
     <item>
       <title>YouTube</title>
-      <link>http://localhost:1313/tags/youtube/</link>
+      <link>https://thiagoprocaci.github.io/tags/youtube/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/youtube/</guid>
+      <guid>https://thiagoprocaci.github.io/tags/youtube/</guid>
       <description></description>
     </item>
     <item>
       <title>Hamlet</title>
-      <link>http://localhost:1313/tags/hamlet/</link>
+      <link>https://thiagoprocaci.github.io/tags/hamlet/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hamlet/</guid>
+      <guid>https://thiagoprocaci.github.io/tags/hamlet/</guid>
       <description></description>
     </item>
     <item>
       <title>Polonius</title>
-      <link>http://localhost:1313/tags/polonius/</link>
+      <link>https://thiagoprocaci.github.io/tags/polonius/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/polonius/</guid>
+      <guid>https://thiagoprocaci.github.io/tags/polonius/</guid>
       <description></description>
     </item>
     <item>
       <title>Shakespeare</title>
-      <link>http://localhost:1313/tags/shakespeare/</link>
+      <link>https://thiagoprocaci.github.io/tags/shakespeare/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/shakespeare/</guid>
+      <guid>https://thiagoprocaci.github.io/tags/shakespeare/</guid>
       <description></description>
     </item>
     <item>
       <title>Bauman</title>
-      <link>http://localhost:1313/tags/bauman/</link>
+      <link>https://thiagoprocaci.github.io/tags/bauman/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/bauman/</guid>
+      <guid>https://thiagoprocaci.github.io/tags/bauman/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Science</title>
-      <link>http://localhost:1313/tags/data-science/</link>
+      <link>https://thiagoprocaci.github.io/tags/data-science/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/data-science/</guid>
+      <guid>https://thiagoprocaci.github.io/tags/data-science/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Scientist</title>
-      <link>http://localhost:1313/tags/data-scientist/</link>
+      <link>https://thiagoprocaci.github.io/tags/data-scientist/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/data-scientist/</guid>
+      <guid>https://thiagoprocaci.github.io/tags/data-scientist/</guid>
       <description></description>
     </item>
     <item>
       <title>Davidowitz</title>
-      <link>http://localhost:1313/tags/davidowitz/</link>
+      <link>https://thiagoprocaci.github.io/tags/davidowitz/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/davidowitz/</guid>
+      <guid>https://thiagoprocaci.github.io/tags/davidowitz/</guid>
       <description></description>
     </item>
     <item>
       <title>Harari</title>
-      <link>http://localhost:1313/tags/harari/</link>
+      <link>https://thiagoprocaci.github.io/tags/harari/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/harari/</guid>
+      <guid>https://thiagoprocaci.github.io/tags/harari/</guid>
       <description></description>
     </item>
     <item>
       <title>Lifelong Learner</title>
-      <link>http://localhost:1313/tags/lifelong-learner/</link>
+      <link>https://thiagoprocaci.github.io/tags/lifelong-learner/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/lifelong-learner/</guid>
+      <guid>https://thiagoprocaci.github.io/tags/lifelong-learner/</guid>
       <description></description>
     </item>
     <item>
       <title>Self-Made Man</title>
-      <link>http://localhost:1313/tags/self-made-man/</link>
+      <link>https://thiagoprocaci.github.io/tags/self-made-man/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/self-made-man/</guid>
+      <guid>https://thiagoprocaci.github.io/tags/self-made-man/</guid>
       <description></description>
     </item>
     <item>
       <title>Innovation</title>
-      <link>http://localhost:1313/tags/innovation/</link>
+      <link>https://thiagoprocaci.github.io/tags/innovation/</link>
       <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/innovation/</guid>
+      <guid>https://thiagoprocaci.github.io/tags/innovation/</guid>
       <description></description>
     </item>
     <item>
       <title>Invention</title>
-      <link>http://localhost:1313/tags/invention/</link>
+      <link>https://thiagoprocaci.github.io/tags/invention/</link>
       <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/invention/</guid>
+      <guid>https://thiagoprocaci.github.io/tags/invention/</guid>
       <description></description>
     </item>
   </channel>

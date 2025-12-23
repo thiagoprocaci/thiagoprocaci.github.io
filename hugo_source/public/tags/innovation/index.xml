@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Innovation on Thiago B. Procaci</title>
-    <link>http://localhost:1313/tags/innovation/</link>
+    <link>https://thiagoprocaci.github.io/tags/innovation/</link>
     <description>Recent content in Innovation on Thiago B. Procaci</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 25 Jan 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/innovation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://thiagoprocaci.github.io/tags/innovation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Innovation and Invention</title>
-      <link>http://localhost:1313/post/innovation/</link>
+      <link>https://thiagoprocaci.github.io/post/innovation/</link>
       <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/innovation/</guid>
+      <guid>https://thiagoprocaci.github.io/post/innovation/</guid>
       <description>&lt;p&gt;I have been working as a software developer for a long time and I usually listen to my coworkers’ opinions using arguments like “our company needs to innovate”. However, when you talk about innovation in a company, you will see people coming up with ideas such as technology adoption or the usage of a new cool methodology to create or improve something.&#xA;Everybody agrees that it is good to create new things and some people feel proud of their creation. However, innovation is not just a creation or a simple improvement. It is a more complex process.&#xA;In this text, I would like to discuss innovation.&lt;/p&gt;</description>
     </item>
   </channel>

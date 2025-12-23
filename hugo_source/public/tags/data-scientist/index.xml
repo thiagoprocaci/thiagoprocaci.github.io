@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Scientist on Thiago B. Procaci</title>
-    <link>http://localhost:1313/tags/data-scientist/</link>
+    <link>https://thiagoprocaci.github.io/tags/data-scientist/</link>
     <description>Recent content in Data Scientist on Thiago B. Procaci</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/data-scientist/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://thiagoprocaci.github.io/tags/data-scientist/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Science: trend, applicability and new data</title>
-      <link>http://localhost:1313/post/datascience/</link>
+      <link>https://thiagoprocaci.github.io/post/datascience/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/datascience/</guid>
+      <guid>https://thiagoprocaci.github.io/post/datascience/</guid>
       <description>&lt;p&gt;Recently, I have been involved in data science projects as never before.&#xA;Data science is a trend.  Saying that someone is data scientist is nice but few know what (s)he actually does. My experience tells that applying techniques quite easy, even in the data science field. The challenge is to find a problem that a technique solves.&lt;/p&gt;&#xA;&lt;p&gt;Back to the beginning, why am I asked to solve issues through data science? Besides my background, which might suggest that my principal tool is always data science methods, the problem should come first instead of a data science solution. After a deeper problem investigation, I could say if the problem is related to data science. Such confusion might be because of the inexact definition of terms such as data science or data scientist. For instance, a usual definition of data scientist is the professional who has expertise in computer science, statistics, and artificial intelligence. This lack of definition can be the reason for such confusion.   Another issue is the marketing involved, which may explain why someone wants data science solutions. Data science is in the peak of expectations and announcing that a company provides data science solutions is a marketing strategy.&lt;/p&gt;</description>
     </item>
   </channel>
