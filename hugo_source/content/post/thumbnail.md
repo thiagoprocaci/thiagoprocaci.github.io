@@ -21,10 +21,10 @@ This is a step-by-step of how to classify thumbnail images with deep learning mo
 ## Downloading Thumbnails 
 We are going to use [CNN (convolutional neural network)](https://en.wikipedia.org/wiki/Convolutional_neural_network) to solve the problem.
 The first task that we need to do is to download all thumbnails before starting building the machine learning model.
-This task is performed by the class YouTubeCrawler. We use pyyoutube library o access YouTube videos through an API.
+This task is performed by the class YouTubeCrawler. We use pyyoutube library to access YouTube videos through an API.
 Besides, to do the download, you must generate the YouTube API key. See this [link](https://console.developers.google.com/apis/credentials) to get details about the API key.
 Then, paste your key in the constructor of [YouTubeCrawler class](https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py).
-````
+```python
 class YouTubeCrawler:
 
       def __init__(self):
@@ -32,7 +32,7 @@ class YouTubeCrawler:
         api_key = '' # paste your key here
         self.api = Api(api_key=api_key)
 
-````
+```
 
 After that,  by calling [the `fetchThumbnails` method](https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py), you will retrieve 400 thumbnails of each channel.
 
@@ -89,7 +89,7 @@ Then, we start the training process by dividing our dataset into training and te
 We instantiate the model [(class `Net`)](https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py), feed it with data, and calculate the metrics accuracy, precision, recall, and f-measure (F1) to verify the quality of the classifications.
 After each iteration, it is possible to see the model improvement in the log:
 
-`````
+```
 Train Epoch: 10 [530/574 (91%)]	Loss: 0.619260
 Train Epoch: 10 [540/574 (93%)]	Loss: 0.410600
 Train Epoch: 10 [550/574 (95%)]	Loss: 0.341183
@@ -97,7 +97,7 @@ Train Epoch: 10 [560/574 (97%)]	Loss: 0.436197
 Train Epoch: 10 [228/574 (98%)]	Loss: 1.016665
 
 Test set: Average loss: 0.2127, Accuracy: 94/101 (93.07%), Precision: 0.94, Recall: 0.92, F1: 0.93 
-`````
+```
 
 Take a look at the method train and test to see how we build the model.
 
@@ -115,7 +115,11 @@ Below in figure 4, there is an example of a prediction where the model classifie
 ## Conclusion
 
 PyTorch is very developer-friendly. It gives you the possibility to define reusable classes/modules in an object-oriented programming manner. 
-I find PyTorch approach flexible and powerful.
+I find PyTorch's approach flexible and powerful.
+
+With a simple CNN architecture and just 800 thumbnails (400 per channel), we achieved a 93% accuracy rate. This demonstrates how effective deep learning can be even with relatively small datasets when the visual patterns are distinctive enough.
+
+For future improvements, you could experiment with data augmentation techniques, try different CNN architectures (such as ResNet or VGG), or expand the classification to include more YouTube channels.
 
 
 

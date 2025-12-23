@@ -134,16 +134,16 @@ layui.use('element', function(){
 <h2 id="downloading-thumbnails">Downloading Thumbnails</h2>
 <p>We are going to use <a href="https://en.wikipedia.org/wiki/Convolutional_neural_network">CNN (convolutional neural network)</a> to solve the problem.
 The first task that we need to do is to download all thumbnails before starting building the machine learning model.
-This task is performed by the class YouTubeCrawler. We use pyyoutube library o access YouTube videos through an API.
+This task is performed by the class YouTubeCrawler. We use pyyoutube library to access YouTube videos through an API.
 Besides, to do the download, you must generate the YouTube API key. See this <a href="https://console.developers.google.com/apis/credentials">link</a> to get details about the API key.
 Then, paste your key in the constructor of <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py">YouTubeCrawler class</a>.</p>
-<pre tabindex="0"><code>class YouTubeCrawler:
-
-      def __init__(self):
-        self.channels = [YouTubeCrawler.PEIXE_BABEL, YouTubeCrawler.NERDOLOGIA]
-        api_key = &#39;&#39; # paste your key here
-        self.api = Api(api_key=api_key)
-</code></pre><p>After that,  by calling <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py">the <code>fetchThumbnails</code> method</a>, you will retrieve 400 thumbnails of each channel.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">YouTubeCrawler</span>:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">__init__</span>(self):
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>channels <span style="color:#f92672">=</span> [YouTubeCrawler<span style="color:#f92672">.</span>PEIXE_BABEL, YouTubeCrawler<span style="color:#f92672">.</span>NERDOLOGIA]
+</span></span><span style="display:flex;"><span>        api_key <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;&#39;</span> <span style="color:#75715e"># paste your key here</span>
+</span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>api <span style="color:#f92672">=</span> Api(api_key<span style="color:#f92672">=</span>api_key)
+</span></span></code></pre></div><p>After that,  by calling <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py">the <code>fetchThumbnails</code> method</a>, you will retrieve 400 thumbnails of each channel.</p>
 <h2 id="rgb-colors-as-input-features">RGB Colors as Input Features</h2>
 <p>Each thumbnail image can be described as vectors of <a href="https://en.wikipedia.org/wiki/RGB_color_model">RGB colors</a>.
 R stands for red, G stands for green, and B stands for blue.
@@ -229,7 +229,9 @@ Below in figure 4, there is an example of a prediction where the model classifie
 </table>
 <h2 id="conclusion">Conclusion</h2>
 <p>PyTorch is very developer-friendly. It gives you the possibility to define reusable classes/modules in an object-oriented programming manner.
-I find PyTorch approach flexible and powerful.</p>
+I find PyTorch&rsquo;s approach flexible and powerful.</p>
+<p>With a simple CNN architecture and just 800 thumbnails (400 per channel), we achieved a 93% accuracy rate. This demonstrates how effective deep learning can be even with relatively small datasets when the visual patterns are distinctive enough.</p>
+<p>For future improvements, you could experiment with data augmentation techniques, try different CNN architectures (such as ResNet or VGG), or expand the classification to include more YouTube channels.</p>
 </div>
             </div>
         </div>
