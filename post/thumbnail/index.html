@@ -1,5 +1,5 @@
 <html>
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -152,42 +152,42 @@ It means that a thumbnail has three vectors of numbers where each represents how
 After this extraction process, you have the original image and the RGBs vectors.
 In figure 1, there is an example of a thumbnail of nerdologia channel.</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="/img/nerdologia_original.png" alt="Example of Nerdologia Thumbnail"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>Figure 1. Example of a thumbnail</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="/img/nerdologia_original.png" alt="Example of Nerdologia Thumbnail"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>Figure 1. Example of a thumbnail</em></td>
+      </tr>
+  </tbody>
 </table>
 <p>In figure 2, we plot the same image three times, each one considering one vector of colors.</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="/img/nerdologia_rgb.png" alt="Example of Nerdologia Thumbnail RGB"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>Figure 2. Thumbnail RGB</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="/img/nerdologia_rgb.png" alt="Example of Nerdologia Thumbnail RGB"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>Figure 2. Thumbnail RGB</em></td>
+      </tr>
+  </tbody>
 </table>
 <p>In figure 3, we have the RGB distribution represented by histograms.</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="/img/nerdologia_rgb_hist.png" alt="Example of Nerdologia Thumbnail RGB"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>Figure 3. RGB vectors as histograms</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="/img/nerdologia_rgb_hist.png" alt="Example of Nerdologia Thumbnail RGB"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>Figure 3. RGB vectors as histograms</em></td>
+      </tr>
+  </tbody>
 </table>
 <p>The code that plots figure 1,2,3 is in <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py">the <code>plot method</code> in the class <code>Thumbnail</code></a>.
 We also save the downloaded thumbnails in the <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/thumbnails.npz">file <code>thumbnails.npz</code></a>.</p>
@@ -216,16 +216,16 @@ Test set: Average loss: 0.2127, Accuracy: 94/101 (93.07%), Precision: 0.94, Reca
 That&rsquo;s the idea of the <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py">method <code>predict</code></a>.
 Below in figure 4, there is an example of a prediction where the model classified the thumbnail as nerdologia.</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="/img/prediction.png" alt="Example of Prediction"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>Figure 4. Prediction</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="/img/prediction.png" alt="Example of Prediction"></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>Figure 4. Prediction</em></td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="conclusion">Conclusion</h2>
 <p>PyTorch is very developer-friendly. It gives you the possibility to define reusable classes/modules in an object-oriented programming manner.
