@@ -17,17 +17,38 @@ footnoteReturnLinkContents = "^"
     
     bio = """
     <p> 
-        Engineering Lead passionate about building high-impact systems at scale. I combine deep expertise in software engineering, data platforms, and machine learning to drive innovation and deliver results.
+        Engineering Lead at Jusbrasil with over a decade of experience at the intersection of Computer Science and Law. I hold a PhD in Computer Science focused on Social Network Analysis, and I apply academic rigor to solve complex challenges in scale, AI, and product strategy. Currently, I lead critical initiatives that take AI products from zero to one and drive innovation in legal tech.
+    </p>
+
+    <p>―</p>
+
+    <p>
+        <strong>Recent Impact</strong>
     </p>
     <br />
     <p>
-        With a PhD in Computer Science specializing in machine learning and social network analysis, I bring both academic rigor and hands-on experience as a programmer, data engineer, and data scientist.
+        <strong>Engineering Leadership</strong><br/>
+        · AI Strategy: Defined the generative AI technical roadmap, reducing query tool latency by over 50% and establishing QA standards for LLMs.<br/>
+        · Product Launches (0 to 1): Technical leadership in creating "background check product" (20K+ subscribers) and "Seus Direitos" acquisition channel (120K+ unique monthly WhatsApp users).<br/>
+        · Team Building: Focused on mentorship and transitioning professionals to technical leadership, raising the hiring bar for senior levels through 30+ annual interviews.
     </p>
     <br />
     <p>
-        Today, I lead teams that design scalable architectures and ship cutting-edge features powered by LLMs.
+        <strong>Technical Leadership in Knowledge Base</strong><br/>
+        · Normative Acts Citation API: Developed the legal entity detection engine that became foundational for Jusbrasil's search, reducing "zero-click" pages and improving ranking accuracy.<br/>        
+        · SEO & Digital Assets: Led cleanup and deduplication of 10K laws and reprocessing of billions of citation links, directly impacting organic traffic and site authority.
     </p>
-   
+
+    <p>―</p>
+
+    <p>
+        <strong>Skill Set</strong>
+    </p>
+    <p>
+        <strong>Technical:</strong> Generative AI (LLMs) · Data Pipeline Architecture · APIs at Scale · Social Network Analysis · Hands-on coding<br/>
+        <strong>Management:</strong> Engineering Management · Adaptive Leadership · Talent Development · OKRs<br/>        
+        <strong>Culture:</strong> Execution excellence · Radical transparency · Technical mentorship
+    </p>
     """
     copyright = " "
 
