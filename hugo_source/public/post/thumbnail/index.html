@@ -1,5 +1,5 @@
 <html>
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -27,11 +27,6 @@
     
 
     
-    
-    <script type="text/javascript" async
-        src="https://cdn.bootcss.com/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
-    
 
     <link rel="stylesheet" href="/layui/css/layui.css">
     <link rel="stylesheet" href="/self/css/default.css">
@@ -41,7 +36,19 @@
     <link rel="stylesheet" async href="/self/css/markdown.min.css">
     <link rel="stylesheet" async href="/self/css/gallery.css">
     <link rel="stylesheet" async href="/font-awesome-4.7.0/css/font-awesome.min.css">
-    <script src="/self/js/lazysizes.min.js" async></script></head>
+    <script src="/self/js/lazysizes.min.js" async></script><meta property="og:type" content="article">
+    <meta property="og:title" content="Thiago B. Procaci - YouTube thumbnail classification using PyTorch">
+    <meta property="og:description" content="YouTube thumbnail classification using PyTorch">
+    <meta property="og:url" content="http://localhost:1313/post/thumbnail/">
+    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/721009?s=460&amp;v=4">
+    <meta name="twitter:card" content="summary">
+    <link rel="canonical" href="http://localhost:1313/post/thumbnail/">
+    <style>
+      .about_right h2 p { margin: 0 0 1em 0; }
+      .about_right h2 p:last-child { margin-bottom: 0; }
+      .list-show-title { text-align: center; padding: 20px 0; }
+    </style>
+</head>
 <body>
     
     <header class="layui-header layui-bg-cyan">
@@ -55,12 +62,14 @@
     <ul class="layui-nav layui-layout-right layui-bg-cyan" lay-filter="">
         
         
-        <li class="layui-nav-item" id="nav_big"><a href="/post/">Posts</a></li>
+        <li class="layui-nav-item" id="nav_big"><a href="/post/">Writing</a></li>
         
 
         
             
-                <li class="layui-nav-item" id="nav_big"><a href="/about/">Skills and Publications</a></li>
+                <li class="layui-nav-item" id="nav_big"><a href="/now/">Now</a></li>
+            
+                <li class="layui-nav-item" id="nav_big"><a href="/about/">About</a></li>
             
         
 
@@ -72,11 +81,13 @@
 
             <dl class="layui-nav-child">
                 
-                <dd><a href="/post/">Posts</a></dd>
+                <dd><a href="/post/">Writing</a></dd>
                 
 
                 
-                    <dd><a href="/about/">Skills and Publications</a></dd>
+                    <dd><a href="/now/">Now</a></dd>
+                
+                    <dd><a href="/about/">About</a></dd>
                 
             </dl>
         </li>
@@ -137,7 +148,7 @@ The first task that we need to do is to download all thumbnails before starting 
 This task is performed by the class YouTubeCrawler. We use pyyoutube library to access YouTube videos through an API.
 Besides, to do the download, you must generate the YouTube API key. See this <a href="https://console.developers.google.com/apis/credentials">link</a> to get details about the API key.
 Then, paste your key in the constructor of <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py">YouTubeCrawler class</a>.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">YouTubeCrawler</span>:
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">YouTubeCrawler</span>:
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">__init__</span>(self):
 </span></span><span style="display:flex;"><span>        self<span style="color:#f92672">.</span>channels <span style="color:#f92672">=</span> [YouTubeCrawler<span style="color:#f92672">.</span>PEIXE_BABEL, YouTubeCrawler<span style="color:#f92672">.</span>NERDOLOGIA]
@@ -152,42 +163,42 @@ It means that a thumbnail has three vectors of numbers where each represents how
 After this extraction process, you have the original image and the RGBs vectors.
 In figure 1, there is an example of a thumbnail of nerdologia channel.</p>
 <table>
-  <thead>
-      <tr>
-          <th style="text-align: center"><img src="/img/nerdologia_original.png" alt="Example of Nerdologia Thumbnail"></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: center"><em>Figure 1. Example of a thumbnail</em></td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th style="text-align: center"><img src="/img/nerdologia_original.png" alt="Example of Nerdologia Thumbnail"></th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: center"><em>Figure 1. Example of a thumbnail</em></td>
+			</tr>
+	</tbody>
 </table>
 <p>In figure 2, we plot the same image three times, each one considering one vector of colors.</p>
 <table>
-  <thead>
-      <tr>
-          <th style="text-align: center"><img src="/img/nerdologia_rgb.png" alt="Example of Nerdologia Thumbnail RGB"></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: center"><em>Figure 2. Thumbnail RGB</em></td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th style="text-align: center"><img src="/img/nerdologia_rgb.png" alt="Example of Nerdologia Thumbnail RGB"></th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: center"><em>Figure 2. Thumbnail RGB</em></td>
+			</tr>
+	</tbody>
 </table>
 <p>In figure 3, we have the RGB distribution represented by histograms.</p>
 <table>
-  <thead>
-      <tr>
-          <th style="text-align: center"><img src="/img/nerdologia_rgb_hist.png" alt="Example of Nerdologia Thumbnail RGB"></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: center"><em>Figure 3. RGB vectors as histograms</em></td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th style="text-align: center"><img src="/img/nerdologia_rgb_hist.png" alt="Example of Nerdologia Thumbnail RGB"></th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: center"><em>Figure 3. RGB vectors as histograms</em></td>
+			</tr>
+	</tbody>
 </table>
 <p>The code that plots figure 1,2,3 is in <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py">the <code>plot method</code> in the class <code>Thumbnail</code></a>.
 We also save the downloaded thumbnails in the <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/thumbnails.npz">file <code>thumbnails.npz</code></a>.</p>
@@ -216,16 +227,16 @@ Test set: Average loss: 0.2127, Accuracy: 94/101 (93.07%), Precision: 0.94, Reca
 That&rsquo;s the idea of the <a href="https://github.com/thiagoprocaci/thumbnail-classification/blob/main/src/YouTubeThumbnail.py">method <code>predict</code></a>.
 Below in figure 4, there is an example of a prediction where the model classified the thumbnail as nerdologia.</p>
 <table>
-  <thead>
-      <tr>
-          <th style="text-align: center"><img src="/img/prediction.png" alt="Example of Prediction"></th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: center"><em>Figure 4. Prediction</em></td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th style="text-align: center"><img src="/img/prediction.png" alt="Example of Prediction"></th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: center"><em>Figure 4. Prediction</em></td>
+			</tr>
+	</tbody>
 </table>
 <h2 id="conclusion">Conclusion</h2>
 <p>PyTorch is very developer-friendly. It gives you the possibility to define reusable classes/modules in an object-oriented programming manner.
