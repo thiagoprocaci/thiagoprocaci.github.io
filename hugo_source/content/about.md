@@ -10,6 +10,14 @@ author = "Thiago"
 
 Staff Software Engineer at Jusbrasil with over a decade in legal tech, across data science, backend, tech lead, and engineering management roles. Since 2025 I have been hands-on again, building and operating LLM agents in production. PhD in Computer Science (social network analysis), with publications on expertise and trust in online communities.
 
+Two of the products I led went from zero to revenue and are still growing: a background-check product that had 7,000 subscribers when I handed it off and has 40,000 today, and a WhatsApp legal-intake channel that serves 120,000 people a month and has produced 300,000 leads at a 42% higher average price than the other channels. The agent platform, the evaluation service, and the observability work described below were built to keep those products growing.
+
+## From expert finding to LLM-as-judge
+
+My thesis and most of my publications ask the same question in different forms: in a community of people asking and answering questions, who answers well, whom can you trust, and which discussions are worth your attention. I spent ten years building metrics and models to answer that for humans.
+
+Today I build automatic judges that evaluate whether an agent answered a legal question well. It is the same research problem with the answerer replaced by an LLM: define what a good answer looks like, measure it at scale, and use the measurement to decide what ships. The evaluation service, the synthetic users, and the daily evals as a deploy gate are that thesis applied to production.
+
 ## What I do well
 
 - **LLM agents in production**: multi-agent prompt design, A/B experiments across prompt and model versions, channel-agnostic chat APIs, migration between agent platforms.
@@ -20,9 +28,10 @@ Staff Software Engineer at Jusbrasil with over a decade in legal tech, across da
 
 ## Earlier work
 
+- Technical lead for a background-check product, from launch to 7,000 subscribers (40,000 today), covering product management alongside engineering.
+- Technical lead for the "Seus Direitos" acquisition channel on WhatsApp, from first bot to 120,000 monthly users and 300,000 leads, including the commercial negotiation with Meta.
 - Legal entity detection engine behind normative-acts citations, foundational for Jusbrasil search.
 - Cleanup and deduplication of the laws corpus and reprocessing of citation links at scale.
-- Technical lead for a background-check product and for the "Seus Direitos" acquisition channel on WhatsApp.
 
 ## Selected publications
 
