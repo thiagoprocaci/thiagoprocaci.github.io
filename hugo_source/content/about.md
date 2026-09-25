@@ -10,7 +10,7 @@ author = "Thiago"
 
 Staff Software Engineer at Jusbrasil with over a decade in legal tech, across data science, backend, tech lead, and engineering management roles. Since 2025 I have been hands-on again, building and operating LLM agents in production. PhD in Computer Science (social network analysis), with publications on expertise and trust in online communities.
 
-Two of the products I led went from zero to revenue and are still growing: a background-check product that had 7,000 subscribers when I handed it off and has 40,000 today, and a WhatsApp legal-intake channel that serves 120,000 people a month and has produced 300,000 leads at a 42% higher average price than the other channels. The agent platform, the evaluation service, and the observability work described below were built to keep those products growing.
+Two of the products I led went from zero to revenue and are still growing. As of mid-2026, the background-check product I launched had grown from 7,000 subscribers at hand-off to 40,000, and the WhatsApp legal-intake channel serves over 100,000 people a month and has produced 300,000 leads, with agent-enriched leads pricing 42% higher than unenriched ones. The agent platform, the evaluation service, and the observability work described below were built to keep those products growing.
 
 ## From expert finding to LLM-as-judge
 
@@ -26,10 +26,13 @@ Today I build automatic judges that evaluate whether an agent answered a legal q
 - **Platform**: Python (FastAPI), TypeScript (React, Next.js monorepo), Go, Postgres, Kubernetes, Terraform, GCP and Vertex AI.
 - **Leadership**: technical roadmaps for generative AI, mentoring engineers into tech-lead roles, hiring for senior positions, written communication as the default.
 
-## Earlier work
+## Products I took to market
 
-- Technical lead for a background-check product, from launch to 7,000 subscribers (40,000 today), covering product management alongside engineering.
-- Technical lead for the "Seus Direitos" acquisition channel on WhatsApp, from first bot to 120,000 monthly users and 300,000 leads, including the commercial negotiation with Meta.
+- Technical lead for the background-check product, from launch to the numbers above, covering product management alongside engineering.
+- Technical lead for the "Seus Direitos" acquisition channel on WhatsApp, from the first bot to the chat platform described in [Now](/now/), including the commercial negotiation with Meta.
+
+## Earlier data work
+
 - Legal entity detection engine behind normative-acts citations, foundational for Jusbrasil search.
 - Cleanup and deduplication of the laws corpus and reprocessing of citation links at scale.
 

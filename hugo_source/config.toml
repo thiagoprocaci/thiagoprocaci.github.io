@@ -13,7 +13,7 @@ footnoteReturnLinkContents = "^"
 
 [params]
     author = "Thiago Procaci"
-    description = "Staff Software Engineer · LLM agents in production"
+    description = "Staff Software Engineer · LLM agents in production · Brazil (UTC-3)"
     portrait = "https://avatars2.githubusercontent.com/u/721009?s=460&v=4"
     MathJax = false
     copyright = " "
@@ -27,11 +27,9 @@ footnoteReturnLinkContents = "^"
     </p>
 
     <p>
-      I have also taken two products from zero to revenue: a background-check product that had
-      7,000 subscribers when I handed it off and has 40,000 today, and a WhatsApp legal-intake channel
-      that now serves 120,000 people a month and has produced 300,000 leads at a 42% higher average price
-      than the other channels. The agent platform I work on exists because of those products, not the
-      other way around.
+      I have also taken two products from zero to revenue: a background-check product with tens of thousands
+      of subscribers today, and a WhatsApp legal-intake channel with over 100,000 monthly users. The agent
+      platform I work on exists because of those products, not the other way around.
     </p>
 
     <p><strong>What I have been doing lately</strong></p>
