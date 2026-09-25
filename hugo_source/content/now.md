@@ -29,4 +29,4 @@ A snapshot of the last twelve months, September 2025 to September 2026. Updated 
 - Spec-driven changes reviewed and archived next to the code, so the repository carries the "why" as well as the diff.
 - Repository instructions and skills for coding agents (review checklists, log triage, test fixing), used daily by the team and by me.
 - Weekly written summaries to the team, a habit since 2021.
-- Code review as a first-class activity. With coding agents in the loop, a typical week is 40 to 50 pull requests opened and around 30 reviewed, and the review discipline is what keeps that volume safe.
+- Code review as a first-class activity. With coding agents in the loop I open more pull requests than before, and I keep reviews rigorous, with AI assisting the review as well: agents run the checklists and triage, and I make the call.
