@@ -10,7 +10,7 @@ author = "Thiago"
 
 Staff Software Engineer at Jusbrasil with over a decade in legal tech, across data science, backend, tech lead, and engineering management roles. Since 2025 I have been hands-on again, building and operating LLM agents in production. PhD in Computer Science (social network analysis), with publications on expertise and trust in online communities.
 
-Two of the products I led went from zero to revenue and are still growing. As of mid-2026, the background-check product I launched had grown from 7,000 subscribers at hand-off to 40,000, and the WhatsApp legal-intake channel serves over 100,000 people a month and has produced 300,000 leads, with agent-enriched leads pricing 42% higher than unenriched ones. The agent platform, the evaluation service, and the observability work described below were built to keep those products growing.
+Two of the products I led went from zero to revenue and are still growing. The background-check product I launched has tens of thousands of subscribers today, several times what it had when I handed it off. The WhatsApp legal-intake channel serves over 100,000 people a month and has produced hundreds of thousands of leads, and leads enriched by the agent sell at a materially higher price than unenriched ones. The agent platform, the evaluation service, and the observability work described below were built to keep those products growing.
 
 ## From expert finding to LLM-as-judge
 
